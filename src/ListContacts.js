@@ -48,7 +48,6 @@ class ListContacts extends Component {
           </Link>
         </div>
 
-        {/* if the condition is true then render this JSX div element */}
         {/* Short-circuit Evaluation Syntax */}
         {showingContacts.length !== contacts.length && (
           <div className="showing-contacts">
